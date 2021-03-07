@@ -59,7 +59,7 @@ def arenaToPic(A, picName, step):
         elif rIdx == 6:
           img.setPenColor(bmp.Color.DKRED)
         img.drawCircle(side + x * side + side / 2, side + y * side + side / 2, side / 2 - 3, True)
-        img.setPenColor(bmp.Color.WHITE)
+        img.setPenColor(bmp.Color.BLACK)
         img.drawText(str(rIdx), side + x * side + 8, side + y * side + 2)
   
   img.saveFile(picName + ".bmp")
